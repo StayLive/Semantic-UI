@@ -23,12 +23,8 @@
 
 .ui.segment {
   position: relative;
-  background: @background;
-  box-shadow: @boxShadow;
-  margin: @margin;
-  padding: @padding;
-  border-radius: @borderRadius;
-  border: @border;
+  background: none;
+  box-shadow: none;
 }
 
 .ui.segment:first-child {
@@ -400,8 +396,7 @@
 ---------------*/
 
 .ui.disabled.segment {
-  opacity: @disabledOpacity;
-  color: @disabledTextColor;
+  display: none;
 }
 
 /*--------------

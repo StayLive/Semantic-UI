@@ -697,10 +697,10 @@
 
 /* Blue */
 .ui.blue.table {
-  border-top: 0.2em solid #2185D0;
+  border-top: 0.2em solid #3F57B4;
 }
 .ui.inverted.blue.table {
-  background-color: #2185D0 !important;
+  background-color: #3F57B4 !important;
   color: #FFFFFF !important;
 }
 
@@ -1136,3 +1136,37 @@
          Site Overrides
 *******************************/
 
+table {
+  background: none!important;
+  border: none!important;
+  color: #575757!important;
+}
+thead,
+th {
+  padding: 6px 0px!important;
+  background: none!important;
+  border-bottom: none!important;
+  text-transform: uppercase!important;
+  color: rgba(0, 0, 0, 0.37) !important;
+  font-size: .9em;
+}
+th {
+  padding-left: 12px!important;
+  border-bottom: 9px solid white!important;
+}
+thead {
+  padding: 2px 0!important;
+  color: #575757!important;
+}
+tbody {
+  background: none;
+}
+tr,
+td {
+  border: none!important;
+  border-bottom: 9px solid white!important;
+  padding: 14px 8px!important;
+}
+tbody tr {
+  background: #F8F8F8!important;
+}

@@ -6,14 +6,14 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Lato';
+@fontName          : 'proxima-nova';
 @fontSmoothing     : antialiased;
 
-@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : @fontName, 'proxima-nova', Arial, Helvetica, sans-serif;
+@pageFont          : @fontName, 'proxima-nova', Arial, Helvetica, sans-serif;
 
 @googleFontName    : @fontName;
-@importGoogleFonts : true;
+@importGoogleFonts : false;
 @googleFontSizes   : '400,700,400italic,700italic';
 @googleSubset      : 'latin';
 
@@ -226,7 +226,7 @@
 @olive            : #B5CC18;
 @green            : #21BA45;
 @teal             : #00B5AD;
-@blue             : #2185D0;
+@blue             : #3F57B4;
 @violet           : #6435C9;
 @purple           : #A333C8;
 @pink             : #E03997;
@@ -241,7 +241,7 @@
 @lightOlive       : #D9E778;
 @lightGreen       : #2ECC40;
 @lightTeal        : #6DFFFF;
-@lightBlue        : #54C8FF;
+@lightBlue        : lighten(#3F57B4, 10);
 @lightViolet      : #A291FB;
 @lightPurple      : #DC73FF;
 @lightPink        : #FF8EDF;
