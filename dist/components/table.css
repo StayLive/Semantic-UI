@@ -24,7 +24,7 @@
           box-shadow: none;
   border-radius: 0.28571429rem;
   text-align: left;
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -57,7 +57,7 @@
   cursor: auto;
   background: #F9FAFB;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
   padding: 0.92857143em 0.78571429em;
   vertical-align: inherit;
   font-style: none;
@@ -89,7 +89,7 @@
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   background: #F9FAFB;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
   padding: 0.78571429em 0.78571429em;
   vertical-align: middle;
   font-style: normal;
@@ -368,13 +368,13 @@
 
 .ui.table tr.active,
 .ui.table td.active {
-  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.87) inset;
-          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.87) inset;
+  -webkit-box-shadow: 0px 0px 0px #6B7C93 inset;
+          box-shadow: 0px 0px 0px #6B7C93 inset;
 }
 .ui.table tr.active,
 .ui.table td.active {
   background: #E0E0E0 !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: #6B7C93 !important;
 }
 
 /*--------------
@@ -538,7 +538,7 @@
 .ui.table tr td.selectable.active:hover,
 .ui.selectable.table tr:hover td.active {
   background: #E0E0E0 !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: #6B7C93 !important;
 }
 .ui.selectable.table tr.positive:hover,
 .ui.table tr td.selectable.positive:hover,
@@ -742,10 +742,10 @@
 
 /* Grey */
 .ui.grey.table {
-  border-top: 0.2em solid #767676;
+  border-top: 0.2em solid #6B7C93;
 }
 .ui.inverted.grey.table {
-  background-color: #767676 !important;
+  background-color: #6B7C93 !important;
   color: #FFFFFF !important;
 }
 
@@ -887,7 +887,7 @@
   cursor: pointer;
   white-space: nowrap;
   border-left: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
 }
 .ui.sortable.table thead th:first-child {
   border-left: none;
@@ -1144,14 +1144,13 @@ table {
 thead,
 th {
   padding: 6px 0px!important;
-  background: none!important;
+  background: #F8F8F8!important;
   border-bottom: none!important;
   text-transform: uppercase!important;
   color: rgba(0, 0, 0, 0.37) !important;
   font-size: .9em;
 }
 th {
-  padding-left: 12px!important;
   border-bottom: 9px solid white!important;
 }
 thead {
@@ -1167,6 +1166,6 @@ td {
   border-bottom: 9px solid white!important;
   padding: 14px 8px!important;
 }
-tbody tr {
+tr {
   background: #F8F8F8!important;
 }

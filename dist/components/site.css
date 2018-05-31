@@ -29,7 +29,7 @@ body {
   font-family: 'proxima-nova', 'proxima-nova', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
   font-smoothing: antialiased;
 }
 
@@ -124,32 +124,32 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
 }
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
 }
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
 }
 
 /* Force Simple Scrollbars */
@@ -201,3 +201,23 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
+.pagination {
+  border: none!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+}
+.pagination .item {
+  margin-left: 3px;
+  margin-right: 3px;
+  background: #F9F9F9!important;
+  color: #575757!important;
+  outline: none;
+}
+.pagination .item:before,
+.pagination .item:after {
+  background: none!important;
+}
+.pagination .active {
+  background: #3F57B4!important;
+  color: white!important;
+}

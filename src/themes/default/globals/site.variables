@@ -51,10 +51,10 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
+@primaryColor        : #3F57B4;
 @secondaryColor      : @black;
 
-@lightPrimaryColor   : @lightBlue;
+@lightPrimaryColor   : #3F57B4;
 @lightSecondaryColor : @lightBlack;
 
 /*--------------
@@ -82,8 +82,8 @@
 
 /* Input Text Color */
 @inputColor: @textColor;
-@inputPlaceholderColor: lighten(@inputColor, 75);
-@inputPlaceholderFocusColor: lighten(@inputColor, 45);
+@inputPlaceholderColor: lighten(@inputColor, 0.9);
+@inputPlaceholderFocusColor: lighten(@inputColor, 0.8);
 
 /* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
 @inputLineHeight: unit((17 / 14), em);
@@ -125,7 +125,7 @@
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : rgba(0, 0, 0, 0.87);
+@textColor           : #6B7C93;
 
 /*-------------------
       Paragraph
@@ -231,7 +231,7 @@
 @purple           : #A333C8;
 @pink             : #E03997;
 @brown            : #A5673F;
-@grey             : #767676;
+@grey             : #6B7C93;
 @black            : #1B1C1D;
 
 /*---  Light Colors  ---*/

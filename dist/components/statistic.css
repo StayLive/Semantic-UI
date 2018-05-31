@@ -120,7 +120,7 @@
   font-family: 'proxima-nova', 'proxima-nova', Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #6B7C93;
   text-transform: uppercase;
   text-align: center;
 }
@@ -375,7 +375,7 @@
 .ui.grey.statistics .statistic > .value,
 .ui.statistics .grey.statistic > .value,
 .ui.grey.statistic > .value {
-  color: #767676;
+  color: #6B7C93;
 }
 
 /*--------------
